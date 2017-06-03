@@ -1,1 +1,1 @@
-# calibre-ui
+# calibre-graphql
