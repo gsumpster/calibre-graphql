@@ -5,5 +5,11 @@
   "main": "index.js",
   "repository": "git@github.com:gsumpster/calibre-ui.git",
   "author": "George Sumpster <gsumpster@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.3",
+    "express-graphql": "^0.6.6",
+    "graphql": "^0.10.1",
+    "sequelize": "^3.30.4"
+  }
 }
