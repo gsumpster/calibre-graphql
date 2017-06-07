@@ -57,3 +57,7 @@ typings/
 # dotenv environment variables file
 .env
 
+src/calibre/**/
+src/calibre/metadata_db_prefs_backup.json
+
+.DS_Store

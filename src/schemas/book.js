@@ -61,6 +61,12 @@ const Book = new GraphQLObjectType({
 					return book.getData();
 				}
 			},
+      cover: {
+        type: GraphQLString,
+        resolve(book) {
+          return `http://localhost:3000/img/${book.path}/cover.jpg`;
+        }
+      },
 			publishedData: {
 				type: GraphQLString,
 				resolve(book) {
