@@ -20,7 +20,7 @@
   },
   "scripts": {
     "build": "babel src -d build",
-    "start": "nodemon --exec npm run babel-node -- src/index.js",
+    "start": "nodemon --exec npm run babel-node -- src/server.js",
     "babel-node": "babel-node"
   }
 }
